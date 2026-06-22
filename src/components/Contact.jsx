@@ -1,9 +1,9 @@
 const openingHours = [
-  { day: "Poniedziałek", time: "08:00 – 18:00", idx: 1 },
-  { day: "Wtorek", time: "08:00 – 18:00", idx: 2 },
-  { day: "Środa", time: "08:00 – 18:00", idx: 3 },
-  { day: "Czwartek", time: "08:00 – 18:00", idx: 4 },
-  { day: "Piątek", time: "08:00 – 18:00", idx: 5 },
+  { day: "Poniedziałek", time: "08:00 – 16:00", idx: 1 },
+  { day: "Wtorek", time: "08:00 – 16:00", idx: 2 },
+  { day: "Środa", time: "08:00 – 16:00", idx: 3 },
+  { day: "Czwartek", time: "08:00 – 16:00", idx: 4 },
+  { day: "Piątek", time: "08:00 – 16:00", idx: 5 },
   { day: "Sobota", time: "Zamknięte", idx: 6 },
   { day: "Niedziela", time: "Zamknięte", idx: 0 }
 ];
