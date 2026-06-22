@@ -38,7 +38,7 @@ export default function WhyUs() {
       // Fire when user has scrolled ~60% into the section.
       const scrolled = vh - r.top;
       const progress = scrolled / r.height;
-      if (progress >= 0.6) {
+      if (progress >= 0.15) {
         setInView(true);
         window.removeEventListener("scroll", onScroll);
       }

@@ -4,8 +4,8 @@ import Marquee from "./components/Marquee.jsx";
 import Services from "./components/Services.jsx";
 import WhyUs from "./components/WhyUs.jsx";
 import Process from "./components/Process.jsx";
-import Reviews from "./components/Reviews.jsx";
 import Contact from "./components/Contact.jsx";
+import Gallery from "./components/Gallery.jsx";
 import Footer from "./components/Footer.jsx";
 
 export default function App() {
@@ -18,7 +18,7 @@ export default function App() {
       <WhyUs />
       <Process />
       <Contact />
-      <Reviews />
+      <Gallery />
       <Footer />
     </>
   );
