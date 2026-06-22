@@ -28,7 +28,7 @@ export default function Gallery() {
   };
 
   return (
-    <section className="gallery-section section light">
+    <section id="realizacje" className="gallery-section section light">
       <div className="section-inner gallery-head">
         <div className="eyebrow"><span className="dot" /> Galeria</div>
         <h2>Nasze<br /> <em>realizacje</em>.</h2>

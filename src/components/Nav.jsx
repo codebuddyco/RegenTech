@@ -6,7 +6,7 @@ const NAV_ITEMS = [
   { href: "#dlaczego", label: "Dlaczego my", num: "02" },
   { href: "#proces", label: "Proces", num: "03" },
   { href: "#kontakt", label: "Kontakt", num: "04" },
-  { href: "#opinie", label: "Opinie", num: "05" }
+  { href: "#realizacje", label: "Realizacje", num: "05" }
 ];
 
 export default function Nav() {
