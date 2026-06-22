@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 
-const imageModules = import.meta.glob('/assets/carousel/*.png', { eager: true });
+const imageModules = import.meta.glob('/assets/carousel/*.{png,jpg,jpeg,webp}', { eager: true });
 const images = Object.values(imageModules).map(m => m.default);
 
 export default function Gallery() {
