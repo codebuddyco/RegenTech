@@ -8,8 +8,7 @@ export default function Footer(){
                     <div>
                         <Logo />
                         <p className="footer-pitch">
-                            Niezależny warsztat samochodowy w Radomiu. Regeneracja
-                            przekładni kierowniczych, serwis i naprawa mechaniki pojazdowej od 2025 roku.
+                            Regeneracja przekładni kierowniczych, serwis <br /> i naprawa mechaniki pojazdowej od 2025 roku.
                         </p>
                         <div className="footer-actions" style={{display:"flex", gap:8}}>
                             <a href="#kontakt" className="btn btn-ghost-dark btn-sm">Skontaktuj się z nami</a>
